@@ -2,8 +2,8 @@ html {
   box-sizing: border-box;
   --black: #1a1c20;
   --white: #fff;
-  --green: #00c380;
-  --d-green: #019b66;
+  --green: #0d9488;
+  --d-green: #0d9488;
   --gray: #c1c1c1;
   --l-gray: #c4c4c4;
   --m-gray: #373838;
@@ -206,8 +206,9 @@ body::after {
       linear-gradient(var(--orange) 100%, transparent 0),
     /* guide-r=== */ /* ===plaque */
       linear-gradient(var(--yellow) 100%, transparent 0),
-    /* plaque=== */ /* ===plaque */
+      /* plaque=== */ /* ===plaque */
       linear-gradient(var(--l-yellow) 100%, transparent 0),
+      url("./Capture.JPG"),
     /* plaque=== */ /* ===bumper */
       linear-gradient(var(--d-blue) 100%, transparent 0),
     /* bumper=== */ /* ===bumper-l */
@@ -268,8 +269,9 @@ body::after {
     /* mirror=== */ /* ===mirror */ 9% 30%,
     /* mirror=== */ /* ===guide-l */ 8.4% 3%,
     /* guide-l=== */ /* ===guide-r */ 8.4% 3%,
-    /* guide-r=== */ /* ===plaque */ 33% 6.5%,
-    /* plaque=== */ /* ===plaque */ 36% 9%,
+    /* guide-r=== */ /* ===plaque */ 0% 0%,
+    /* plaque=== */ /* ===plaque */ 0% 0%,
+    35% 12%,
     /* plaque=== */ /* ===bumper */ 87% 30%,
     /* bumper=== */ /* ===bumper-l */ 10% 12%,
     /* bumper-l=== */ /* ===bumper-r */ 10% 12%,
@@ -306,8 +308,9 @@ body::after {
     /* mirror=== */ /* ===mirror */ 95% 48.6%,
     /* mirror=== */ /* ===guide-l */ 5% 75.2%,
     /* guide-l=== */ /* ===guide-r */ 95% 75.2%,
-    /* guide-r=== */ /* ===plaque */ 51% 86%,
-    /* plaque=== */ /* ===plaque */ 51.5% 87.3%,
+    /* guide-r=== */ /* ===plaque */ 0% 0%,
+    /* plaque=== */ /* ===plaque */ 0% 0%,
+    51.5% 86.3%,
     /* plaque=== */ /* ===bumper */ center 71.9%,
     /* bumper=== */ /* ===bumper-l */ -0.8% 77.8%,
     /* bumper-l=== */ /* ===bumper-r */ 101.7% 77.8%,
